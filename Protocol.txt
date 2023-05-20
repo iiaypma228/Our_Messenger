@@ -1,0 +1,18 @@
+//Request
+//Отправляет клиент
+{
+  
+  "NameSender": "", // Имя отправителя
+  "CommandType" : "Registrarion", //Тип команды
+  "JValue" : "" //Json строка
+
+}
+
+
+//Response
+//Отвечает сервер
+{
+  "Status" : "OK", //Статус выполнения
+  "GValue" : "", //Значение ответа
+  "Error" : "" // ошибки, если Status не OK
+}
