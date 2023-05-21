@@ -5,7 +5,12 @@
   "NameSender": "", // Имя отправителя
   "CommandType" : "Registrarion", //Тип команды
   "JValue" : "" //Json строка
-
+  
+  
+  
+  "NameSender": "", // Имя отправителя
+  "CommandType" : "LastOnline", //Тип команды
+  "JValue" : "Telephone" //Json строка
 }
 
 
