@@ -2,13 +2,13 @@
 //Отправляет клиент
 {
   
-  "NameSender": "", // Имя отправителя
+  "MyPhone": "", // Имя отправителя
   "CommandType" : "Registrarion", //Тип команды
   "JValue" : "" //Json строка
   
   
   
-  "NameSender": "", // Имя отправителя
+  "MyPhone": "", // Имя отправителя
   "CommandType" : "LastOnline", //Тип команды
   "JValue" : "Telephone" //Json строка
 }
@@ -21,3 +21,12 @@
   "GValue" : "", //Значение ответа
   "Error" : "" // ошибки, если Status не OK
 }
+
+JValue structure
+
+if CommandType == "*" : return struct;
+
+Registration : { "Phone" : "312321321", "Password" : "2312312", "UserName" : "" }\
+Login: { "Phone" : "312321321", "Password" : "2312312"}
+LastOnline: {"Phone" : "521"}
+SendMSG: {"PhoneFor" : "51521", "MSG" : "HELLO!"}
